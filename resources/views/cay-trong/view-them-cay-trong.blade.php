@@ -1,4 +1,4 @@
-@extends('master.master')
+﻿@extends('master.master')
 @section('title') Thêm cây trồng @endsection
 @section('content')
     {{ csrf_field() }}
@@ -7,6 +7,7 @@
             <h2>Thêm cây trồng</h2>
         </div>
     </div>
+
     <div class="card">
         <div class="card-header">
             <a data-toggle="collapse" href="#mot" style="text-decoration: none; color: black;">
